@@ -14,6 +14,6 @@ export async function GET() {
 
     return NextResponse.json({ images: imageFiles })
   } catch (error) {
-    return NextResponse.json({ error: 'Failed to read gallery images' }, { status: 500 })
+    return NextResponse.json({ error: 'Failed to read gallery images' + error }, { status: 500 })
   }
 } 

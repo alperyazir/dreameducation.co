@@ -1,6 +1,6 @@
-/// <reference types="react" />
-
 'use client'
+
+import React from 'react';
 
 import { motion } from 'framer-motion'
 import { useState, useEffect, useMemo, useCallback } from 'react'
@@ -18,29 +18,6 @@ const fadeInUp = {
   }
 }
 
-const staggerContainer = {
-  hidden: { opacity: 0 },
-  visible: {
-    opacity: 1,
-    transition: {
-      staggerChildren: 0.2
-    }
-  }
-}
-
-interface Solution {
-  name: string
-  description: string
-  features: string[]
-  type: string
-}
-
-interface Testimonial {
-  body: string
-  author: string
-  title: string
-  school: string
-}
 
 export default function Solutions() {
   const { t } = useLanguage()
@@ -253,12 +230,12 @@ export default function Solutions() {
                         </div>
                       </div>
                     </div>
-                  </div>
-                ))}
+                </div>
+              ))}
               </div>
             </div>
           </div>
-
+          
           {/* Client Success Stories Section */}
           <div className="relative isolate mt-32 px-8 py-16">
             <div className="absolute inset-0 -z-10 overflow-hidden">
@@ -315,8 +292,8 @@ export default function Solutions() {
                         <p className="text-sm text-gray-600">{testimonial.school}</p>
                       </div>
                     </div>
-                  ))}
-                </div>
+              ))}
+            </div>
               </div>
             )}
           </div>

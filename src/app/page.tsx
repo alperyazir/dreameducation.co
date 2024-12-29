@@ -1,11 +1,10 @@
 'use client'
 
 import Image from 'next/image'
-import Link from 'next/link'
 import { motion } from 'framer-motion'
 import Navbar from '@/components/Navbar'
 import { useLanguage } from '@/context/LanguageContext'
-import { publisherLogos, getRoundedPublisherCount } from '@/utils/getPublisherLogos'
+import { publisherLogos } from '@/utils/getPublisherLogos'
 
 const fadeInUp = {
   hidden: { 
@@ -36,7 +35,6 @@ const staggerContainer = {
 
 export default function Home() {
   const { t } = useLanguage()
-  const publisherCount = getRoundedPublisherCount()
   
   return (
     <main className="min-h-screen">
@@ -350,18 +348,4 @@ export default function Home() {
     </main>
   )
 }
-const features = [
-  {
-    name: 'Curated Selection',
-    description: 'Carefully selected educational materials from both Turkish and international publishers to ensure the highest quality resources.',
-  },
-  {
-    name: 'Comprehensive Support',
-    description: 'Expert guidance and support for schools and teachers in selecting and implementing educational materials.',
-  },
-  {
-    name: 'Diverse Materials',
-    description: 'Wide range of educational resources covering various subjects, learning levels, and teaching methodologies.',
-  },
-]
 

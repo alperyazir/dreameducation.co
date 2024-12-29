@@ -5,6 +5,8 @@ import enTranslations from '@/translations/en.json'
 import trTranslations from '@/translations/tr.json'
 
 type Language = 'en' | 'tr'
+type TranslationValue = string | Record<string, unknown>
+type Translations = Record<string, TranslationValue>
 
 interface LanguageContextType {
   language: Language
@@ -23,13 +25,18 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
   const [language, setLanguage] = useState<Language>('en')
 
   const t = useCallback((key: string) => {
-    const translation = translations[language]
+    const translation = translations[language] as Translations
     if (!translation) return key
 
-    const value = key.split('.').reduce((obj, k) => obj?.[k], translation as any)
-    if (value === undefined) return key
+    const value = key.split('.').reduce((obj, k) => {
+      if (typeof obj === 'object' && obj !== null) {
+        return (obj as Record<string, unknown>)[k]
+      }
+      return undefined
+    }, translation as Record<string, unknown>)
 
-    return value as string
+    if (typeof value !== 'string') return key
+    return value
   }, [language])
 
   return (
@@ -41,7 +48,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
 
 export function useLanguage() {
   const context = useContext(LanguageContext)
-  if (context === undefined) {
+  if (!context) {
     throw new Error('useLanguage must be used within a LanguageProvider')
   }
   return context

@@ -17,17 +17,20 @@ interface LanguageContextType {
 const translations = {
   en: enTranslations,
   tr: trTranslations
-} as const
+}
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined)
 
-function getNestedValue(obj: Record<string, unknown>, path: string): unknown {
-  return path.split('.').reduce<unknown>((acc, key) => {
-    if (acc && typeof acc === 'object') {
-      return (acc as Record<string, unknown>)[key]
+function getNestedValue(obj: Record<string, unknown>, path: string[]): unknown {
+  let current = obj
+  for (const key of path) {
+    if (current && typeof current === 'object') {
+      current = (current as Record<string, unknown>)[key]
+    } else {
+      return undefined
     }
-    return undefined
-  }, obj)
+  }
+  return current
 }
 
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
@@ -37,7 +40,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
     const translation = translations[language] as Record<string, unknown>
     if (!translation) return key
 
-    const value = getNestedValue(translation, key)
+    const value = getNestedValue(translation, key.split('.'))
     return typeof value === 'string' ? value : key
   }, [language])
 

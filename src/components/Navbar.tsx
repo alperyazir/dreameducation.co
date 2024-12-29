@@ -62,9 +62,16 @@ export default function Navbar() {
             href="https://dreamedtech.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-x-1.5 px-4 py-2 text-base font-semibold text-brand-blue hover:text-white bg-brand-blue/10 hover:bg-brand-blue border border-brand-blue/20 rounded-full transition-all duration-300"
+            className="inline-flex items-center gap-x-2 px-4 py-2 text-base font-semibold text-brand-blue hover:text-white bg-brand-blue/10 hover:bg-brand-blue border border-brand-blue/20 rounded-full transition-all duration-300"
             title={t('nav.edtech.description')}
           >
+            <Image
+              src="/dreamedtech.svg"
+              alt="Dream EdTech Logo"
+              width={32}
+              height={32}
+              className="w-8 h-8"
+            />
             {t('nav.edtech')}
             <ArrowTopRightOnSquareIcon className="h-4 w-4" aria-hidden="true" />
           </a>
@@ -126,7 +133,14 @@ export default function Navbar() {
                 className="-mx-3 block rounded-lg px-4 py-2 text-base font-semibold text-brand-blue hover:text-white bg-brand-blue/10 hover:bg-brand-blue border border-brand-blue/20"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                <span className="inline-flex items-center gap-x-1.5">
+                <span className="inline-flex items-center gap-x-2">
+                  <Image
+                    src="/dreamedtech.svg"
+                    alt="Dream EdTech Logo"
+                    width={32}
+                    height={32}
+                    className="w-8 h-8"
+                  />
                   {t('nav.edtech')}
                   <ArrowTopRightOnSquareIcon className="h-4 w-4" aria-hidden="true" />
                 </span>

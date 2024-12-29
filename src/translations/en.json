@@ -1,0 +1,165 @@
+{
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "solutions": "Solutions",
+        "contact": "Contact",
+        "edtech": "Dream EdTech",
+        "edtech.description": "Visit Dream EdTech"
+    },
+    "hero": {
+        "title": "Empowering Education Through Quality Resources",
+        "subtitle": "We distribute premium foreign and Turkish educational materials to schools and teachers, helping create enriched learning environments.",
+        "explore": "Explore Solutions",
+        "learnMore": "Learn more"
+    },
+    "publishers": {
+        "title": "Learn from {count} leading publishers with us"
+    },
+    "features": {
+        "whyChoose": "Why Choose Us",
+        "title": "Everything you need for quality education",
+        "subtitle": "We provide comprehensive educational solutions that cater to diverse learning needs and teaching methods.",
+        "curatedSelection": "Curated Selection",
+        "curatedSelectionDesc": "Carefully selected educational materials from both Turkish and international publishers to ensure the highest quality resources.",
+        "support": "Comprehensive Support",
+        "supportDesc": "Expert guidance and support for schools and teachers in selecting and implementing educational materials.",
+        "materials": "Diverse Materials",
+        "materialsDesc": "Wide range of educational resources covering various subjects, learning levels, and teaching methodologies."
+    },
+    "about": {
+        "title": "Our Mission",
+        "subtitle": "We are dedicated to enriching educational experiences by providing high-quality learning materials to schools and teachers across Turkey.",
+        "intro": "At Dream Education, we understand that quality education requires quality resources. That's why we've made it our mission to bridge the gap between international educational excellence and Turkish schools.",
+        "feature1": {
+            "title": "Carefully Curated Materials",
+            "desc": "We partner with leading publishers worldwide to bring the best educational resources to Turkish schools."
+        },
+        "feature2": {
+            "title": "Expert Support",
+            "desc": "Our team of education specialists provides guidance in selecting and implementing materials effectively."
+        },
+        "feature3": {
+            "title": "Local Understanding",
+            "desc": "With deep roots in the Turkish education system, we understand the unique needs of our schools and teachers."
+        },
+        "vision": "Our vision is to contribute to a future where every student in Turkey has access to world-class educational materials, fostering a generation of global citizens prepared for tomorrow's challenges.",
+        "gallery": {
+            "title": "Our Gallery",
+            "description": "Take a look at our educational materials, events, and partnerships that make Dream Education a leader in educational resources."
+        }
+    },
+    "solutions": {
+        "title": "Our Solutions",
+        "subtitle": "We offer tailored solutions for your educational institutions.",
+        "cta": {
+            "title": "Ready to transform your educational approach?",
+            "subtitle": "Contact us to discuss how our solutions can enhance your institution's educational goals.",
+            "contact": "Contact Us",
+            "learn": "Learn More"
+        },
+        "edtech": {
+            "subtitle": "Transforming learning with our educational technology platform",
+            "description": "Dream Edtech combines modern educational technologies with traditional learning methods to provide a unique experience for students and educators.",
+            "feature1": {
+                "title": "AI-Powered Learning",
+                "description": "Smart content recommendations that adapt to students' learning pace and style."
+            },
+            "feature2": {
+                "title": "Secure and Scalable",
+                "description": "Infrastructure that complies with the highest security standards and can be adapted to institutions of any size."
+            },
+            "learnMore": "Discover Dream Edtech"
+        },
+        "curriculum": {
+            "title": "Curriculum Development",
+            "description": "We work with schools to develop comprehensive curriculum solutions that align with national and international standards.",
+            "features": {
+                "1": "Curriculum analysis and evaluation",
+                "2": "Learning objectives definition",
+                "3": "Content development and adaptation",
+                "4": "Assessment systems design",
+                "5": "Continuous improvement plans"
+            }
+        },
+        "training": {
+            "title": "Teacher Training",
+            "description": "Professional development programs to help teachers maximize the effectiveness of our educational materials.",
+            "features": {
+                "1": "New teacher orientation",
+                "2": "Professional development programs",
+                "3": "Technology integration training",
+                "4": "Classroom management techniques",
+                "5": "Student assessment methods"
+            }
+        },
+        "planning": {
+            "title": "Resource Planning",
+            "description": "Strategic planning assistance to help schools optimize their educational resource investments.",
+            "features": {
+                "1": "Resource needs analysis",
+                "2": "Budget planning and optimization",
+                "3": "Material selection and procurement",
+                "4": "Resource utilization strategies",
+                "5": "Efficiency assessment"
+            }
+        },
+        "digital": {
+            "title": "Digital Integration",
+            "description": "Support in implementing digital learning tools and platforms in your school environment.",
+            "features": {
+                "1": "Digital platform selection",
+                "2": "Learning management systems",
+                "3": "Online assessment tools",
+                "4": "Hybrid learning solutions",
+                "5": "Technology infrastructure planning"
+            }
+        }
+    },
+    "testimonials": {
+        "title": "Client Success Stories",
+        "subtitle": "See how our solutions have helped educational institutions achieve their goals.",
+        "1": {
+            "body": "The personalized support and attention to detail have made Dream Education an essential partner in our success.",
+            "author": "Selin Yılmaz",
+            "title": "Curriculum Coordinator",
+            "school": "Adana Private School"
+        },
+        "2": {
+            "body": "Their innovative solutions and dedicated support team have helped us achieve our educational goals effectively.",
+            "author": "Emre Çelik",
+            "title": "Deputy Principal",
+            "school": "Konya College"
+        }
+    },
+    "contact": {
+        "title": "Contact Us",
+        "subtitle": "We'd love to hear from you. Please fill out this form or contact us using the information below.",
+        "form": {
+            "name": "Name",
+            "email": "Email",
+            "phone": "Phone",
+            "organization": "School/Organization",
+            "message": "Message",
+            "submit": "Send message"
+        },
+        "info": {
+            "title": "Our Contact Information",
+            "address": "Address",
+            "email": "Email",
+            "phone": "Phone"
+        }
+    },
+    "footer": {
+        "rights": "All rights reserved.",
+        "contact": "Contact Us",
+        "followUs": "Follow Us",
+        "description": "Empowering education through quality resources. We distribute premium educational materials to schools and teachers across Turkey."
+    },
+    "company": {
+        "name": "Dream Education",
+        "address": "Maslak, Büyükdere Cad. No:123\nSarıyer/İstanbul",
+        "email": "info@dreameducation.co",
+        "phone": "+90 (212) 123 45 67"
+    }
+}

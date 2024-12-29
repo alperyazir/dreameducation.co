@@ -1,0 +1,165 @@
+{
+    "nav": {
+        "home": "Ana Sayfa",
+        "about": "Hakkımızda",
+        "solutions": "Çözümler",
+        "contact": "İletişim",
+        "edtech": "Dream EdTech",
+        "edtech.description": "Dream EdTech'i Ziyaret Et"
+    },
+    "hero": {
+        "title": "Kaliteli Kaynaklarla Eğitimi Güçlendiriyoruz",
+        "subtitle": "Okullara ve öğretmenlere premium yabancı ve Türkçe eğitim materyalleri sağlayarak zenginleştirilmiş öğrenme ortamları yaratıyoruz.",
+        "explore": "Çözümleri Keşfet",
+        "learnMore": "Daha Fazla Bilgi"
+    },
+    "publishers": {
+        "title": "{count} önde gelen yayıncı ile öğrenin"
+    },
+    "features": {
+        "whyChoose": "Neden Biz?",
+        "title": "Kaliteli eğitim için ihtiyacınız olan her şey",
+        "subtitle": "Farklı öğrenme ihtiyaçlarına ve öğretim yöntemlerine uygun kapsamlı eğitim çözümleri sunuyoruz.",
+        "curatedSelection": "Özenle Seçilmiş Kaynaklar",
+        "curatedSelectionDesc": "En kaliteli kaynakları sağlamak için Türk ve uluslararası yayınevlerinden özenle seçilmiş eğitim materyalleri.",
+        "support": "Kapsamlı Destek",
+        "supportDesc": "Eğitim materyallerinin seçimi ve uygulanmasında okullara ve öğretmenlere uzman rehberliği ve destek.",
+        "materials": "Çeşitli Materyaller",
+        "materialsDesc": "Farklı konuları, öğrenme seviyelerini ve öğretim metodolojilerini kapsayan geniş eğitim kaynakları yelpazesi."
+    },
+    "about": {
+        "title": "Misyonumuz",
+        "subtitle": "Türkiye genelindeki okullara ve öğretmenlere yüksek kaliteli öğrenme materyalleri sağlayarak eğitim deneyimlerini zenginleştirmeye adanmış durumdayız.",
+        "intro": "Dream Education olarak, kaliteli eğitimin kaliteli kaynaklar gerektirdiğini biliyoruz. Bu nedenle misyonumuz, uluslararası eğitim mükemmelliği ile Türk okulları arasında köprü kurmaktır.",
+        "feature1": {
+            "title": "Özenle Seçilmiş Materyaller",
+            "desc": "Türk okullarına en iyi eğitim kaynaklarını getirmek için dünya çapında önde gelen yayınevleriyle iş birliği yapıyoruz."
+        },
+        "feature2": {
+            "title": "Uzman Desteği",
+            "desc": "Eğitim uzmanlarımız, materyallerin seçimi ve etkili bir şekilde uygulanması konusunda rehberlik sağlıyor."
+        },
+        "feature3": {
+            "title": "Yerel Anlayış",
+            "desc": "Türk eğitim sistemindeki derin köklerimizle, okullarımızın ve öğretmenlerimizin özel ihtiyaçlarını anlıyoruz."
+        },
+        "vision": "Vizyonumuz, Türkiye'deki her öğrencinin dünya standartlarında eğitim materyallerine erişebildiği, yarının zorluklarına hazır küresel vatandaşlar yetiştiren bir geleceğe katkıda bulunmaktır.",
+        "gallery": {
+            "title": "Galerimiz",
+            "description": "Dream Education'ı eğitim kaynaklarında lider yapan eğitim materyallerimiz, etkinliklerimiz ve iş birliklerimize göz atın."
+        }
+    },
+    "solutions": {
+        "title": "Çözümlerimiz",
+        "subtitle": "Eğitim kurumlarınız için özel olarak tasarlanmış çözümler sunuyoruz.",
+        "cta": {
+            "title": "Eğitim yaklaşımınızı dönüştürmeye hazır mısınız?",
+            "subtitle": "Çözümlerimizin kurumunuzun eğitim hedeflerini nasıl geliştirebileceğini görüşmek için bize ulaşın.",
+            "contact": "İletişime Geçin",
+            "learn": "Daha Fazla Bilgi"
+        },
+        "edtech": {
+            "subtitle": "Eğitim teknolojileri platformumuz ile öğrenmeyi dönüştürüyoruz",
+            "description": "Dream Edtech, modern eğitim teknolojileri ile geleneksel öğrenme yöntemlerini birleştirerek, öğrencilere ve eğitimcilere benzersiz bir deneyim sunar.",
+            "feature1": {
+                "title": "Yapay Zeka Destekli Öğrenme",
+                "description": "Öğrencilerin öğrenme hızına ve stiline göre uyarlanabilen akıllı içerik önerileri."
+            },
+            "feature2": {
+                "title": "Güvenli ve Ölçeklenebilir",
+                "description": "En yüksek güvenlik standartlarıyla uyumlu, her ölçekte kuruma uyarlanabilen altyapı."
+            },
+            "learnMore": "Dream Edtech'i keşfedin"
+        },
+        "curriculum": {
+            "title": "Müfredat Geliştirme",
+            "description": "Okullarla birlikte ulusal ve uluslararası standartlara uygun kapsamlı müfredat çözümleri geliştiriyoruz.",
+            "features": {
+                "1": "Müfredat analizi ve değerlendirmesi",
+                "2": "Öğrenme hedeflerinin belirlenmesi",
+                "3": "İçerik geliştirme ve adaptasyonu",
+                "4": "Değerlendirme sistemleri tasarımı",
+                "5": "Sürekli iyileştirme planları"
+            }
+        },
+        "training": {
+            "title": "Öğretmen Eğitimi",
+            "description": "Öğretmenlerin eğitim materyallerimizin etkinliğini en üst düzeye çıkarmalarına yardımcı olan profesyonel gelişim programları.",
+            "features": {
+                "1": "Yeni öğretmen oryantasyonu",
+                "2": "Profesyonel gelişim programları",
+                "3": "Teknoloji entegrasyonu eğitimi",
+                "4": "Sınıf yönetimi teknikleri",
+                "5": "Öğrenci değerlendirme yöntemleri"
+            }
+        },
+        "planning": {
+            "title": "Kaynak Planlama",
+            "description": "Okulların eğitim kaynak yatırımlarını optimize etmelerine yardımcı olan stratejik planlama desteği.",
+            "features": {
+                "1": "Kaynak ihtiyaç analizi",
+                "2": "Bütçe planlama ve optimizasyonu",
+                "3": "Materyal seçimi ve tedariki",
+                "4": "Kaynak kullanım stratejileri",
+                "5": "Verimlilik değerlendirmesi"
+            }
+        },
+        "digital": {
+            "title": "Dijital Entegrasyon",
+            "description": "Okul ortamınızda dijital öğrenme araçları ve platformlarının uygulanmasında destek.",
+            "features": {
+                "1": "Dijital platform seçimi",
+                "2": "Öğrenme yönetim sistemleri",
+                "3": "Çevrimiçi değerlendirme araçları",
+                "4": "Hibrit öğrenme çözümleri",
+                "5": "Teknoloji altyapısı planlaması"
+            }
+        }
+    },
+    "testimonials": {
+        "title": "Başarı Hikayeleri",
+        "subtitle": "Çözümlerimizin eğitim kurumlarının hedeflerine ulaşmasına nasıl yardımcı olduğunu görün.",
+        "1": {
+            "body": "Kişiselleştirilmiş destek ve detaylara gösterdikleri özen, Dream Education'ı başarımızda vazgeçilmez bir ortak haline getirdi.",
+            "author": "Selin Yılmaz",
+            "title": "Müfredat Koordinatörü",
+            "school": "Adana Özel Okulu"
+        },
+        "2": {
+            "body": "Yenilikçi çözümleri ve özverili destek ekibi, eğitim hedeflerimize etkili bir şekilde ulaşmamıza yardımcı oldu.",
+            "author": "Emre Çelik",
+            "title": "Müdür Yardımcısı",
+            "school": "Konya Koleji"
+        }
+    },
+    "contact": {
+        "title": "İletişim",
+        "subtitle": "Sizden haber almak isteriz. Lütfen bu formu doldurun veya aşağıdaki iletişim bilgilerini kullanın.",
+        "form": {
+            "name": "İsim",
+            "email": "E-posta",
+            "phone": "Telefon",
+            "organization": "Okul/Kurum",
+            "message": "Mesaj",
+            "submit": "Mesaj Gönder"
+        },
+        "info": {
+            "title": "İletişim Bilgilerimiz",
+            "address": "Adres",
+            "email": "E-posta",
+            "phone": "Telefon"
+        }
+    },
+    "footer": {
+        "rights": "Tüm hakları saklıdır.",
+        "contact": "İletişim",
+        "followUs": "Bizi Takip Edin",
+        "description": "Kaliteli kaynaklarla eğitimi güçlendiriyoruz. Türkiye genelindeki okullara ve öğretmenlere premium eğitim materyalleri sağlıyoruz."
+    },
+    "company": {
+        "name": "Dream Education",
+        "address": "Maslak, Büyükdere Cad. No:123\nSarıyer/İstanbul",
+        "email": "info@dreameducation.co",
+        "phone": "+90 (212) 123 45 67"
+    }
+}

@@ -1,0 +1,13 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background Circle -->
+    <circle cx="80" cy="80" r="76" fill="#FFF5F2" />
+
+    <!-- Stack of Books -->
+    <rect x="40" y="60" width="50" height="70" rx="4" fill="#f65843" />
+    <rect x="45" y="50" width="50" height="70" rx="4" fill="#3fb5bf" />
+    <rect x="50" y="40" width="50" height="70" rx="4" fill="#f7d11e" />
+
+    <!-- Checkmark/Selection Symbol -->
+    <circle cx="110" cy="100" r="20" fill="#570026" />
+    <path d="M100 100L108 108L120 92" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

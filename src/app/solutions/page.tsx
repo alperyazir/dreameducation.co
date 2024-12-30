@@ -140,7 +140,7 @@ export default function Solutions() {
                     <div className="bg-white rounded-xl p-6 shadow-sm ring-1 ring-gray-900/5 hover:shadow-md transition-shadow">
                       <div className="flex items-start gap-6">
                         {/* Solution Icon */}
-                        <div className="flex-shrink-0">
+                        <div className="flex-shrink-0 hidden md:block">
                           {solution.type === 'curriculum' && (
                             <svg className="w-20 h-20" viewBox="0 0 48 48" fill="none">
                               {/* Background Circle */}

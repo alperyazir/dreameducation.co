@@ -5,8 +5,7 @@ import enTranslations from '@/translations/en.json'
 import trTranslations from '@/translations/tr.json'
 
 type Language = 'en' | 'tr'
-type TranslationValue = string | Record<string, unknown>
-type Translations = Record<string, TranslationValue>
+type NestedObject = { [key: string]: string | NestedObject }
 
 interface LanguageContextType {
   language: Language
@@ -14,34 +13,36 @@ interface LanguageContextType {
   t: (key: string) => string
 }
 
-const translations = {
-  en: enTranslations,
-  tr: trTranslations
+const translations: Record<Language, NestedObject> = {
+  en: enTranslations as NestedObject,
+  tr: trTranslations as NestedObject
 }
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined)
 
-function getNestedValue(obj: Record<string, unknown>, path: string[]): unknown {
-  let current = obj
-  for (const key of path) {
-    if (current && typeof current === 'object') {
-      current = (current as Record<string, unknown>)[key]
+function getTranslatedValue(obj: NestedObject, key: string): string {
+  const parts = key.split('.')
+  let value: string | NestedObject = obj
+
+  for (const part of parts) {
+    if (value && typeof value === 'object') {
+      value = value[part]
     } else {
-      return undefined
+      return key
     }
   }
-  return current
+
+  return typeof value === 'string' ? value : key
 }
 
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
   const [language, setLanguage] = useState<Language>('en')
 
   const t = useCallback((key: string) => {
-    const translation = translations[language] as Record<string, unknown>
+    const translation = translations[language]
     if (!translation) return key
 
-    const value = getNestedValue(translation, key.split('.'))
-    return typeof value === 'string' ? value : key
+    return getTranslatedValue(translation, key)
   }, [language])
 
   return (

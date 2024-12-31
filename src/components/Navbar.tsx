@@ -26,7 +26,17 @@ export default function Navbar() {
     <nav className="fixed inset-x-0 top-0 z-50 bg-white border-b border-gray-200">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="relative flex h-24 items-center justify-between">
-          <div className="flex lg:flex-1">
+          <div className="flex items-center gap-4">
+            <div className="flex lg:hidden">
+              <button
+                type="button"
+                className="relative z-50 inline-flex items-center justify-center rounded-md p-3 text-gray-700 hover:bg-gray-100 hover:text-brand-purple focus:outline-none focus:ring-2 focus:ring-inset focus:ring-brand-purple"
+                onClick={() => setIsMenuOpen(true)}
+              >
+                <span className="sr-only">Open main menu</span>
+                <Bars3Icon className="h-8 w-8" aria-hidden="true" />
+              </button>
+            </div>
             <Link href="/" className="-m-1.5 p-2">
               <Image
                 src="/dream-education-logo.svg"
@@ -38,16 +48,6 @@ export default function Navbar() {
                 style={{ objectFit: 'contain' }}
               />
             </Link>
-          </div>
-          <div className="flex lg:hidden">
-            <button
-              type="button"
-              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
-              onClick={() => setIsMenuOpen(true)}
-            >
-              <span className="sr-only">Open main menu</span>
-              <Bars3Icon className="h-6 w-6" aria-hidden="true" />
-            </button>
           </div>
           <div className="hidden lg:flex lg:gap-x-12 items-center">
             {navigation.map((item) => (
@@ -89,30 +89,30 @@ export default function Navbar() {
       
       {/* Mobile menu */}
       <motion.div
-        initial={{ opacity: 0, x: '100%' }}
-        animate={{ opacity: isMenuOpen ? 1 : 0, x: isMenuOpen ? '0%' : '100%' }}
+        initial={{ opacity: 0, x: '-100%' }}
+        animate={{ opacity: isMenuOpen ? 1 : 0, x: isMenuOpen ? '0%' : '-100%' }}
         transition={{ duration: 0.3 }}
-        className={`${isMenuOpen ? 'fixed' : 'hidden'} inset-y-0 right-0 z-50 w-full bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10`}
+        className={`${isMenuOpen ? 'fixed' : 'hidden'} inset-y-0 left-0 z-50 w-[80vw] max-w-sm bg-white px-4 py-4 shadow-lg border-r border-gray-200`}
       >
-        <div className="flex items-center justify-between">
-          <Link href="/" className="-m-1.5 p-1.5">
+        <div className="flex items-center justify-between mb-4">
+          <Link href="/" className="p-1">
             <Image
               src="/dream-education-logo.svg"
               alt="Dream Education Logo"
-              width={200}
-              height={50}
-              className="h-16 w-auto"
+              width={160}
+              height={40}
+              className="h-12 w-auto"
               priority
               style={{ objectFit: 'contain' }}
             />
           </Link>
           <button
             type="button"
-            className="-m-2.5 rounded-md p-2.5 text-gray-700"
+            className="relative z-50 inline-flex items-center justify-center rounded-md p-2 text-gray-700 hover:bg-gray-100 hover:text-brand-purple focus:outline-none focus:ring-2 focus:ring-inset focus:ring-brand-purple"
             onClick={() => setIsMenuOpen(false)}
           >
             <span className="sr-only">Close menu</span>
-            <XMarkIcon className="h-6 w-6" aria-hidden="true" />
+            <XMarkIcon className="h-7 w-7" aria-hidden="true" />
           </button>
         </div>
         <div className="mt-6 flow-root">

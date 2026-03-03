@@ -36,7 +36,7 @@ function getTranslatedValue(obj: NestedObject, key: string): string {
 }
 
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
-  const [language, setLanguage] = useState<Language>('en')
+  const [language, setLanguage] = useState<Language>('tr')
 
   const t = useCallback((key: string) => {
     const translation = translations[language]

@@ -60,10 +60,10 @@ export default function Home() {
         {/* Content */}
         <div className="mx-auto max-w-7xl px-6 pt-32 pb-2 sm:pt-40 lg:pt-48">
           <div className="text-left max-w-3xl relative">
-            <h1 className="text-4xl font-bold tracking-tight text-brand-purple sm:text-6xl lg:text-7xl">
+            <h1 className="text-3xl font-bold tracking-tight text-brand-purple sm:text-4xl lg:text-5xl">
               {t('hero.title')}
             </h1>
-            <p className="mt-6 text-xl font-semibold leading-8 text-gray-900 max-w-2xl">
+            <p className="mt-6 text-base font-semibold leading-7 text-gray-900 max-w-2xl">
               {t('hero.subtitle')}
             </p>
           </div>

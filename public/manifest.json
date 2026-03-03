@@ -1,0 +1,16 @@
+{
+  "name": "Dream Education",
+  "short_name": "Dream Edu",
+  "description": "Okullara ve öğretmenlere yabancı dil eğitim kitapları ve materyalleri dağıtımı",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1e3a5f",
+  "icons": [
+    {
+      "src": "/round-favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

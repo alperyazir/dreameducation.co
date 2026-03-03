@@ -53,8 +53,8 @@ export const metadata: Metadata = {
     images: ["/dream-education-logo.svg"],
   },
   icons: {
-    icon: "/round-favicon.svg",
-    apple: "/round-favicon.svg",
+    icon: "/favicon.ico",
+    apple: "/favicon.ico",
   },
   manifest: "/manifest.json",
   robots: {

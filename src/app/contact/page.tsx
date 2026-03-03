@@ -34,10 +34,31 @@ export default function Contact() {
     message: '',
     organization: '',
   })
+  const [status, setStatus] = useState<'idle' | 'sending' | 'success' | 'error'>('idle')
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    console.log('Form submitted:', formData)
+    setStatus('sending')
+    try {
+      const res = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          access_key: '41f5465a-9041-4d21-8ea1-72806e20d8e0',
+          subject: `New contact from ${formData.name} - Dream Education`,
+          from_name: 'Dream Education Website',
+          ...formData,
+        }),
+      })
+      if (res.ok) {
+        setStatus('success')
+        setFormData({ name: '', email: '', phone: '', message: '', organization: '' })
+      } else {
+        setStatus('error')
+      }
+    } catch {
+      setStatus('error')
+    }
   }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -161,10 +182,21 @@ export default function Contact() {
               <div className="mt-10">
                 <button
                   type="submit"
-                  className="block w-full rounded-md bg-brand-purple px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-brand-purple/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-purple"
+                  disabled={status === 'sending'}
+                  className="block w-full rounded-md bg-brand-purple px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-brand-purple/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-purple disabled:opacity-50"
                 >
-                  {t('contact.form.submit')}
+                  {status === 'sending' ? '...' : t('contact.form.submit')}
                 </button>
+                {status === 'success' && (
+                  <p className="mt-4 text-sm text-green-600 text-center font-medium">
+                    {t('contact.form.success')}
+                  </p>
+                )}
+                {status === 'error' && (
+                  <p className="mt-4 text-sm text-red-600 text-center font-medium">
+                    {t('contact.form.error')}
+                  </p>
+                )}
               </div>
             </motion.form>
 

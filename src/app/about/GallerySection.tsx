@@ -1,44 +1,51 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { useLanguage } from '@/context/LanguageContext'
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 20 },
-  visible: { 
-    opacity: 1, 
+  visible: {
+    opacity: 1,
     y: 0,
     transition: { duration: 0.5 }
   }
 }
 
+const galleryImages = [
+  '1706797340410.jpg',
+  '1717261782682.jpg',
+  '1737999869507.jpg',
+  '1739029410350.jpg',
+  '1744471880314.jpg',
+  '1745591693470.jpg',
+  '1748177470673.jpg',
+  '1755255890618.jpg',
+  '1755343160649.jpg',
+  '1755968005053.jpg',
+  '1756277320803.jpg',
+  '1756326315031.jpg',
+  '1757067050451.jpg',
+  '1760633089827.jpg',
+  '1771059683408.jpg',
+  'dream etkinlik.jpg',
+  'WhatsApp Image 2026-03-03 at 21.09.41.jpeg',
+]
+
 export default function GallerySection() {
   const { t } = useLanguage()
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
-  const [galleryImages, setGalleryImages] = useState<string[]>([])
-
-  useEffect(() => {
-    // Fetch gallery images when component mounts
-    fetch('/api/gallery')
-      .then(res => res.json())
-      .then(data => {
-        if (data.images) {
-          setGalleryImages(data.images)
-        }
-      })
-      .catch(error => console.error('Failed to fetch gallery images:', error))
-  }, [])
 
   const handlePrevImage = () => {
-    setCurrentImageIndex((prev) => 
+    setCurrentImageIndex((prev) =>
       prev === 0 ? galleryImages.length - 1 : prev - 1
     )
   }
 
   const handleNextImage = () => {
-    setCurrentImageIndex((prev) => 
+    setCurrentImageIndex((prev) =>
       prev === galleryImages.length - 1 ? 0 : prev + 1
     )
   }
@@ -72,7 +79,7 @@ export default function GallerySection() {
       </div>
 
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <motion.div 
+        <motion.div
           className="mx-auto max-w-2xl lg:mx-0"
           initial="hidden"
           whileInView="visible"
@@ -87,7 +94,7 @@ export default function GallerySection() {
           </p>
         </motion.div>
 
-        <motion.div 
+        <motion.div
           className="mx-auto mt-16 max-w-6xl"
           initial="hidden"
           whileInView="visible"
@@ -102,9 +109,9 @@ export default function GallerySection() {
               priority
               className="object-contain"
             />
-            
+
             {/* Navigation Arrows */}
-            <button 
+            <button
               onClick={handlePrevImage}
               className="absolute left-4 top-1/2 -mt-4 flex h-8 w-8 items-center justify-center rounded-full bg-white/80 shadow-md hover:bg-white focus:outline-none focus:ring-2 focus:ring-brand-purple"
             >
@@ -112,7 +119,7 @@ export default function GallerySection() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
               </svg>
             </button>
-            <button 
+            <button
               onClick={handleNextImage}
               className="absolute right-4 top-1/2 -mt-4 flex h-8 w-8 items-center justify-center rounded-full bg-white/80 shadow-md hover:bg-white focus:outline-none focus:ring-2 focus:ring-brand-purple"
             >
@@ -125,4 +132,4 @@ export default function GallerySection() {
       </div>
     </div>
   )
-} 
+}

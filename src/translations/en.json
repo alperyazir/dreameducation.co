@@ -8,13 +8,13 @@
         "edtech.description": "Visit Dream EdTech"
     },
     "hero": {
-        "title": "Empowering Education Through Quality Resources",
-        "subtitle": "We distribute premium foreign and Turkish educational materials to schools and teachers, helping create enriched learning environments.",
+        "title": "Empowering education with our printed resources and digital solutions.",
+        "subtitle": "In addition to the printed and digital solutions we offer to educational institutions in foreign languages, we produce smart board software and AI-powered learning management systems for companies in the education sector, while also managing the procurement processes of schools.",
         "explore": "Explore Solutions",
         "learnMore": "Learn more"
     },
     "publishers": {
-        "title": "Learn from {count} leading publishers with us"
+        "title": "The leading educational solutions company in the sector…"
     },
     "features": {
         "whyChoose": "Why Choose Us",
@@ -141,7 +141,9 @@
             "phone": "Phone",
             "organization": "School/Organization",
             "message": "Message",
-            "submit": "Send message"
+            "submit": "Send message",
+            "success": "Your message has been sent successfully!",
+            "error": "Something went wrong. Please try again."
         },
         "info": {
             "title": "Our Contact Information",
@@ -158,8 +160,8 @@
     },
     "company": {
         "name": "Dream Education",
-        "address": "Maslak, Büyükdere Cad. No:123\nSarıyer/İstanbul",
-        "email": "info@dreameducation.co",
-        "phone": "+90 (212) 123 45 67"
+        "address": "Yeni Bağlıca Mahallesi Zirve Caddesi No:86/4\nEtimesgut/ANKARA",
+        "email": "support@dreameducation.co",
+        "phone": "+90 312 704 02 23"
     }
 }

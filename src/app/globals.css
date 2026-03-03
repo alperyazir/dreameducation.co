@@ -25,12 +25,12 @@ body {
     transform: translateX(0);
   }
   to {
-    transform: translateX(-33.33%);
+    transform: translateX(-50%);
   }
 }
 
 .animate-infinite-scroll {
-  animation: infinite-scroll 20s linear infinite;
+  animation: infinite-scroll 80s linear infinite;
 }
 
 @keyframes marquee {

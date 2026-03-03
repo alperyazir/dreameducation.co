@@ -8,13 +8,13 @@
         "edtech.description": "Dream EdTech'i Ziyaret Et"
     },
     "hero": {
-        "title": "Kaliteli Kaynaklarla Eğitimi Güçlendiriyoruz",
-        "subtitle": "Okullara ve öğretmenlere premium yabancı ve Türkçe eğitim materyalleri sağlayarak zenginleştirilmiş öğrenme ortamları yaratıyoruz.",
+        "title": "Basılı kaynaklarımız ve dijital çözümlerimiz ile eğitimi güçlendiriyoruz.",
+        "subtitle": "Yabancı diller alanında eğitim kurumlarına sunduğumuz basılı ve dijital çözümlerimizin yanı sıra bir yandan eğitim sektöründe faaliyet gösteren firmalara akıllı tahta yazılımı ve AI destekli öğrenim yönetimi sistemleri üretiyor bir yandan da okulların tedarik süreçlerini yönetiyoruz.",
         "explore": "Çözümleri Keşfet",
         "learnMore": "Daha Fazla Bilgi"
     },
     "publishers": {
-        "title": "{count} önde gelen yayıncı ile öğrenin"
+        "title": "Sektörün öncü eğitim çözümleri şirketi…"
     },
     "features": {
         "whyChoose": "Neden Biz?",
@@ -141,7 +141,9 @@
             "phone": "Telefon",
             "organization": "Okul/Kurum",
             "message": "Mesaj",
-            "submit": "Mesaj Gönder"
+            "submit": "Mesaj Gönder",
+            "success": "Mesajınız başarıyla gönderildi!",
+            "error": "Bir hata oluştu. Lütfen tekrar deneyin."
         },
         "info": {
             "title": "İletişim Bilgilerimiz",
@@ -158,8 +160,8 @@
     },
     "company": {
         "name": "Dream Education",
-        "address": "Maslak, Büyükdere Cad. No:123\nSarıyer/İstanbul",
-        "email": "info@dreameducation.co",
-        "phone": "+90 (212) 123 45 67"
+        "address": "Yeni Bağlıca Mahallesi Zirve Caddesi No:86/4\nEtimesgut/ANKARA",
+        "email": "support@dreameducation.co",
+        "phone": "+90 312 704 02 23"
     }
 }

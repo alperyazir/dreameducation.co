@@ -29,92 +29,72 @@
     },
     "about": {
         "title": "Our Mission",
-        "subtitle": "We are dedicated to enriching educational experiences by providing high-quality learning materials to schools and teachers across Turkey.",
-        "intro": "At Dream Education, we understand that quality education requires quality resources. That's why we've made it our mission to bridge the gap between international educational excellence and Turkish schools.",
+        "subtitle": "We are dedicated to enriching educational experiences by providing high-quality learning materials to schools and universities across Turkey.",
+        "intro": "At Dream Education, we understand that quality education requires quality resources. That's why we've made it our mission to bridge the gap between international educational excellence and Turkish educational institutions.",
         "feature1": {
             "title": "Carefully Curated Materials",
-            "desc": "We partner with leading publishers worldwide to bring the best educational resources to Turkish schools."
+            "desc": "We partner with leading publishers worldwide to bring the best educational resources to educational institutions."
         },
         "feature2": {
             "title": "Expert Support",
-            "desc": "Our team of education specialists provides guidance in selecting and implementing materials effectively."
+            "desc": "Our academic team provides guidance on material selection, effective implementation, and professional development training."
         },
         "feature3": {
-            "title": "Local Understanding",
-            "desc": "With deep roots in the Turkish education system, we understand the unique needs of our schools and teachers."
+            "title": "Institution-Specific Understanding",
+            "desc": "With deep roots in the Turkish education system, we understand the unique needs of our schools and universities."
         },
         "vision": "Our vision is to contribute to a future where every student in Turkey has access to world-class educational materials, fostering a generation of global citizens prepared for tomorrow's challenges.",
         "gallery": {
-            "title": "Our Gallery",
-            "description": "Take a look at our educational materials, events, and partnerships that make Dream Education a leader in educational resources."
+            "title": "Gallery",
+            "description": ""
         }
     },
     "solutions": {
         "title": "Our Solutions",
-        "subtitle": "We offer tailored solutions for your educational institutions.",
-        "cta": {
-            "title": "Ready to transform your educational approach?",
-            "subtitle": "Contact us to discuss how our solutions can enhance your institution's educational goals.",
-            "contact": "Contact Us",
-            "learn": "Learn More"
-        },
-        "edtech": {
-            "subtitle": "Transforming learning with our educational technology platform",
-            "description": "Dream Edtech combines modern educational technologies with traditional learning methods to provide a unique experience for students and educators.",
-            "feature1": {
-                "title": "AI-Powered Learning",
-                "description": "Smart content recommendations that adapt to students' learning pace and style."
-            },
-            "feature2": {
-                "title": "Secure and Scalable",
-                "description": "Infrastructure that complies with the highest security standards and can be adapted to institutions of any size."
-            },
-            "learnMore": "Discover Dream Edtech"
-        },
+        "subtitle": "Dream Education offers printed resources, digital learning solutions, assessment systems, and teacher training under a single integrated structure to enhance academic success, teacher competency, and student motivation in educational institutions.",
         "curriculum": {
-            "title": "Curriculum Development",
-            "description": "We work with schools to develop comprehensive curriculum solutions that align with national and international standards.",
+            "title": "Printed Resources",
+            "description": "Needs analyses are conducted based on the school's English class hours, academic background, goals, and teacher analyses. Then, appropriate printed resources prepared to international standards that form the academic backbone of the school are selected.",
             "features": {
-                "1": "Curriculum analysis and evaluation",
-                "2": "Learning objectives definition",
-                "3": "Content development and adaptation",
-                "4": "Assessment systems design",
-                "5": "Continuous improvement plans"
+                "1": "Full curriculum alignment",
+                "2": "Academic continuity",
+                "3": "Level-based progression",
+                "4": "International quality perception"
+            }
+        },
+        "digital": {
+            "title": "Digital Learning Products",
+            "description": "Digital platforms that support printed content, align with targeted programs and resources, establish the school-home connection, and enrich the student's learning process by ensuring learning continues at home.",
+            "features": {
+                "1": "Student motivation",
+                "2": "Home learning continuity",
+                "3": "Digital literacy",
+                "4": "Visible learning process for parents",
+                "5": "Reporting"
+            }
+        },
+        "planning": {
+            "title": "Assessment & Evaluation",
+            "description": "Assessment tools that track student development with numerical data and support decision-making processes.",
+            "features": {
+                "1": "Objective assessment",
+                "2": "Academic reporting",
+                "3": "Transparency in parent communication",
+                "4": "Curriculum optimization"
             }
         },
         "training": {
             "title": "Teacher Training",
-            "description": "Professional development programs to help teachers maximize the effectiveness of our educational materials.",
+            "description": "The most critical building block ensuring the sustainability of the system: teacher development.",
             "features": {
-                "1": "New teacher orientation",
-                "2": "Professional development programs",
-                "3": "Technology integration training",
-                "4": "Classroom management techniques",
-                "5": "Student assessment methods"
+                "1": "Publication and content usage",
+                "2": "Digital platform integration",
+                "3": "Assessment literacy",
+                "4": "In-class best practices"
             }
         },
-        "planning": {
-            "title": "Resource Planning",
-            "description": "Strategic planning assistance to help schools optimize their educational resource investments.",
-            "features": {
-                "1": "Resource needs analysis",
-                "2": "Budget planning and optimization",
-                "3": "Material selection and procurement",
-                "4": "Resource utilization strategies",
-                "5": "Efficiency assessment"
-            }
-        },
-        "digital": {
-            "title": "Digital Integration",
-            "description": "Support in implementing digital learning tools and platforms in your school environment.",
-            "features": {
-                "1": "Digital platform selection",
-                "2": "Learning management systems",
-                "3": "Online assessment tools",
-                "4": "Hybrid learning solutions",
-                "5": "Technology infrastructure planning"
-            }
-        }
+        "closing": "As Dream Education, our goal is to strengthen the academic vision of educational institutions, ensure students acquire language skills at global standards, and support teachers with continuous development. To realize the vision of 'happy teachers = happy students' by putting the teacher at the center.",
+        "closingFinal": "We don't just offer products; we build a sustainable solution partnership in education."
     },
     "testimonials": {
         "title": "Client Success Stories",
@@ -134,7 +114,7 @@
     },
     "contact": {
         "title": "Contact Us",
-        "subtitle": "We'd love to hear from you. Please fill out this form or contact us using the information below.",
+        "subtitle": "",
         "form": {
             "name": "Name",
             "email": "Email",

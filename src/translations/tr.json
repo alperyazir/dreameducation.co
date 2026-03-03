@@ -29,92 +29,72 @@
     },
     "about": {
         "title": "Misyonumuz",
-        "subtitle": "Türkiye genelindeki okullara ve öğretmenlere yüksek kaliteli öğrenme materyalleri sağlayarak eğitim deneyimlerini zenginleştirmeye adanmış durumdayız.",
-        "intro": "Dream Education olarak, kaliteli eğitimin kaliteli kaynaklar gerektirdiğini biliyoruz. Bu nedenle misyonumuz, uluslararası eğitim mükemmelliği ile Türk okulları arasında köprü kurmaktır.",
+        "subtitle": "Türkiye genelindeki okullara ve üniversitelere yüksek kaliteli öğrenme materyalleri sağlayarak eğitim deneyimlerini zenginleştirmeye adanmış durumdayız.",
+        "intro": "Dream Education olarak, kaliteli eğitimin kaliteli kaynaklar gerektirdiğini biliyoruz. Bu nedenle misyonumuz, uluslararası eğitim mükemmelliği ile Türk eğitim kurumları arasında köprü kurmaktır.",
         "feature1": {
             "title": "Özenle Seçilmiş Materyaller",
-            "desc": "Türk okullarına en iyi eğitim kaynaklarını getirmek için dünya çapında önde gelen yayınevleriyle iş birliği yapıyoruz."
+            "desc": "Eğitim kurumlarına en iyi eğitim kaynaklarını getirmek için dünya çapında önde gelen yayınevleri ile iş birliği yapıyoruz."
         },
         "feature2": {
             "title": "Uzman Desteği",
-            "desc": "Eğitim uzmanlarımız, materyallerin seçimi ve etkili bir şekilde uygulanması konusunda rehberlik sağlıyor."
+            "desc": "Akademik kadromuz materyallerin seçimi, etkili bir şekilde uygulanması ve mesleki gelişim eğitimleri konusunda rehberlik sağlıyor."
         },
         "feature3": {
-            "title": "Yerel Anlayış",
-            "desc": "Türk eğitim sistemindeki derin köklerimizle, okullarımızın ve öğretmenlerimizin özel ihtiyaçlarını anlıyoruz."
+            "title": "Kuruma Özel Anlayış",
+            "desc": "Türk eğitim sistemindeki derin köklerimizle, okullarımızın ve üniversitelerimizin özel ihtiyaçlarını anlıyoruz."
         },
         "vision": "Vizyonumuz, Türkiye'deki her öğrencinin dünya standartlarında eğitim materyallerine erişebildiği, yarının zorluklarına hazır küresel vatandaşlar yetiştiren bir geleceğe katkıda bulunmaktır.",
         "gallery": {
-            "title": "Galerimiz",
-            "description": "Dream Education'ı eğitim kaynaklarında lider yapan eğitim materyallerimiz, etkinliklerimiz ve iş birliklerimize göz atın."
+            "title": "Galeri",
+            "description": ""
         }
     },
     "solutions": {
         "title": "Çözümlerimiz",
-        "subtitle": "Eğitim kurumlarınız için özel olarak tasarlanmış çözümler sunuyoruz.",
-        "cta": {
-            "title": "Eğitim yaklaşımınızı dönüştürmeye hazır mısınız?",
-            "subtitle": "Çözümlerimizin kurumunuzun eğitim hedeflerini nasıl geliştirebileceğini görüşmek için bize ulaşın.",
-            "contact": "İletişime Geçin",
-            "learn": "Daha Fazla Bilgi"
-        },
-        "edtech": {
-            "subtitle": "Eğitim teknolojileri platformumuz ile öğrenmeyi dönüştürüyoruz",
-            "description": "Dream Edtech, modern eğitim teknolojileri ile geleneksel öğrenme yöntemlerini birleştirerek, öğrencilere ve eğitimcilere benzersiz bir deneyim sunar.",
-            "feature1": {
-                "title": "Yapay Zeka Destekli Öğrenme",
-                "description": "Öğrencilerin öğrenme hızına ve stiline göre uyarlanabilen akıllı içerik önerileri."
-            },
-            "feature2": {
-                "title": "Güvenli ve Ölçeklenebilir",
-                "description": "En yüksek güvenlik standartlarıyla uyumlu, her ölçekte kuruma uyarlanabilen altyapı."
-            },
-            "learnMore": "Dream Edtech'i keşfedin"
-        },
+        "subtitle": "Dream Education, eğitim kurumlarının akademik başarısını, öğretmen yetkinliğini ve öğrenci motivasyonunu artırmak amacıyla basılı kaynaklar, dijital öğrenme çözümleri, ölçme değerlendirme sistemleri ve öğretmen eğitimlerini tek bir entegre yapı altında sunar.",
         "curriculum": {
-            "title": "Müfredat Geliştirme",
-            "description": "Okullarla birlikte ulusal ve uluslararası standartlara uygun kapsamlı müfredat çözümleri geliştiriyoruz.",
+            "title": "Basılı Kaynaklar",
+            "description": "Okulun İngilizce ders saati, akademik geçmişi, hedefleri ve öğretmen analizleri neticesinde ihtiyaç analizleri yapılır. Sonrasında okulun akademik omurgasını oluşturan, uluslararası standartlarda hazırlanmış uygun basılı kaynaklar seçilir.",
             "features": {
-                "1": "Müfredat analizi ve değerlendirmesi",
-                "2": "Öğrenme hedeflerinin belirlenmesi",
-                "3": "İçerik geliştirme ve adaptasyonu",
-                "4": "Değerlendirme sistemleri tasarımı",
-                "5": "Sürekli iyileştirme planları"
-            }
-        },
-        "training": {
-            "title": "Öğretmen Eğitimi",
-            "description": "Öğretmenlerin eğitim materyallerimizin etkinliğini en üst düzeye çıkarmalarına yardımcı olan profesyonel gelişim programları.",
-            "features": {
-                "1": "Yeni öğretmen oryantasyonu",
-                "2": "Profesyonel gelişim programları",
-                "3": "Teknoloji entegrasyonu eğitimi",
-                "4": "Sınıf yönetimi teknikleri",
-                "5": "Öğrenci değerlendirme yöntemleri"
-            }
-        },
-        "planning": {
-            "title": "Kaynak Planlama",
-            "description": "Okulların eğitim kaynak yatırımlarını optimize etmelerine yardımcı olan stratejik planlama desteği.",
-            "features": {
-                "1": "Kaynak ihtiyaç analizi",
-                "2": "Bütçe planlama ve optimizasyonu",
-                "3": "Materyal seçimi ve tedariki",
-                "4": "Kaynak kullanım stratejileri",
-                "5": "Verimlilik değerlendirmesi"
+                "1": "Müfredatla tam uyum",
+                "2": "Akademik süreklilik",
+                "3": "Seviye bazlı ilerleme",
+                "4": "Uluslararası kalite algısı"
             }
         },
         "digital": {
-            "title": "Dijital Entegrasyon",
-            "description": "Okul ortamınızda dijital öğrenme araçları ve platformlarının uygulanmasında destek.",
+            "title": "Dijital Öğrenme Ürünleri",
+            "description": "Basılı içeriği destekleyen, hedeflenen program ve kaynaklarla uyumlu, okul-ev bağlantısını kuracak ve öğrenmenin evde devam etmesini sağlayacak öğrencinin öğrenme sürecini zenginleştiren dijital platformlar.",
             "features": {
-                "1": "Dijital platform seçimi",
-                "2": "Öğrenme yönetim sistemleri",
-                "3": "Çevrimiçi değerlendirme araçları",
-                "4": "Hibrit öğrenme çözümleri",
-                "5": "Teknoloji altyapısı planlaması"
+                "1": "Öğrenci motivasyonu",
+                "2": "Evde öğrenme devamlılığı",
+                "3": "Dijital okuryazarlık",
+                "4": "Veliler için görünür öğrenme süreci",
+                "5": "Raporlama"
             }
-        }
+        },
+        "planning": {
+            "title": "Ölçme – Değerlendirme",
+            "description": "Öğrenci gelişimini sayısal verilerle izleyen, karar alma süreçlerini destekleyen ölçme araçları.",
+            "features": {
+                "1": "Nesnel değerlendirme",
+                "2": "Akademik raporlama",
+                "3": "Veli iletişiminde şeffaflık",
+                "4": "Müfredat optimizasyonu"
+            }
+        },
+        "training": {
+            "title": "Öğretmen Eğitimleri",
+            "description": "Sistemin sürdürülebilirliğini sağlayan en kritik yapı taşı: öğretmen gelişimi.",
+            "features": {
+                "1": "Yayın ve içerik kullanımı",
+                "2": "Dijital platform entegrasyonu",
+                "3": "Ölçme değerlendirme okuryazarlığı",
+                "4": "Sınıf içi iyi uygulamalar"
+            }
+        },
+        "closing": "Dream Education olarak hedefimiz; eğitim kurumlarının akademik vizyonunu güçlendirmek, öğrencilerin küresel standartlarda dil becerileri kazanmasını sağlamak, öğretmenleri sürekli gelişimle desteklemek. Öğretmeni merkeze alan, 'mutlu öğretmenler = mutlu öğrenciler' vizyonunu gerçekleştirebilmektir.",
+        "closingFinal": "Biz yalnızca ürün sunmuyoruz; eğitimde sürdürülebilir bir çözüm ortaklığı kuruyoruz."
     },
     "testimonials": {
         "title": "Başarı Hikayeleri",
@@ -133,8 +113,8 @@
         }
     },
     "contact": {
-        "title": "İletişim",
-        "subtitle": "Sizden haber almak isteriz. Lütfen bu formu doldurun veya aşağıdaki iletişim bilgilerini kullanın.",
+        "title": "Bize Ulaşın",
+        "subtitle": "",
         "form": {
             "name": "İsim",
             "email": "E-posta",

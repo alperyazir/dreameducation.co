@@ -15,7 +15,6 @@ const fadeInUp = {
 }
 
 const galleryImages = [
-  '1706797340410.jpg',
   '1717261782682.jpg',
   '1737999869507.jpg',
   '1739029410350.jpg',

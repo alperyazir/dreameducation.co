@@ -44,7 +44,7 @@ export default function Contact() {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          access_key: '41f5465a-9041-4d21-8ea1-72806e20d8e0',
+          access_key: 'e62409ae-c079-4200-8fcf-7cd82845ef52',
           subject: `New contact from ${formData.name} - Dream Education`,
           from_name: 'Dream Education Website',
           ...formData,

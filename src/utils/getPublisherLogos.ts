@@ -17,6 +17,8 @@ export const publisherLogos = [
   { src: '/publishers/maison.png', alt: 'Maison des Langues' },
   { src: '/publishers/edinumen.png', alt: 'Edinumen' },
   { src: '/publishers/difusion.png', alt: 'Difusión' },
+  { src: '/publishers/studysync.png', alt: 'Study Sync' },
+  { src: '/publishers/mm.png', alt: 'MM Publications' },
 ]
 
 export function getRoundedPublisherCount(): string {

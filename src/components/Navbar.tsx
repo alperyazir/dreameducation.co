@@ -81,7 +81,7 @@ export default function Navbar() {
               className="inline-flex items-center gap-x-1.5 text-base font-semibold leading-6 text-brand-purple hover:text-brand-orange transition-colors"
             >
               <GlobeAltIcon className="h-5 w-5" aria-hidden="true" />
-              {language.toUpperCase()}
+              {language === 'en' ? 'TR' : 'EN'}
             </button>
           </div>
         </div>
@@ -153,7 +153,7 @@ export default function Navbar() {
               >
                 <span className="inline-flex items-center gap-x-1.5">
                   <GlobeAltIcon className="h-5 w-5" aria-hidden="true" />
-                  {language.toUpperCase()}
+                  {language === 'en' ? 'TR' : 'EN'}
                 </span>
               </button>
             </div>
